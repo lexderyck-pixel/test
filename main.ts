@@ -10,7 +10,7 @@ input.onGesture(Gesture.Shake, function () {
     music.play(music.stringPlayable("E B C5 A B G A F ", 186), music.PlaybackMode.UntilDone)
 })
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
-    basic.showNumber(randint(0, 6))
+    basic.showNumber(randint(0, 100))
 })
 input.onButtonPressed(Button.AB, function () {
     basic.showString("Maili ,Floor,Elodi,Noor zijn beste vriendinnen ")
